@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF0240E1F56863000B83885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0240D1F56863000B83885 /* AppDelegate.swift */; };
+		2FF024101F56863000B83885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0240F1F56863000B83885 /* ViewController.swift */; };
+		2FF024131F56863000B83885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF024111F56863000B83885 /* Main.storyboard */; };
+		2FF024151F56863000B83885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF024141F56863000B83885 /* Assets.xcassets */; };
+		2FF024181F56863000B83885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF024161F56863000B83885 /* LaunchScreen.storyboard */; };
+		2FF024231F56863000B83885 /* SuspendWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF024221F56863000B83885 /* SuspendWindowTests.swift */; };
+		2FF0242E1F56863000B83885 /* SuspendWindowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0242D1F56863000B83885 /* SuspendWindowUITests.swift */; };
+		2FF0243C1F5686E900B83885 /* AssistiveTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0243B1F5686E900B83885 /* AssistiveTouch.swift */; };
+		2FF0243E1F56873600B83885 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF0243D1F56873500B83885 /* TwoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF0241F1F56863000B83885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF024021F56863000B83885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF024091F56863000B83885;
+			remoteInfo = SuspendWindow;
+		};
+		2FF0242A1F56863000B83885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF024021F56863000B83885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF024091F56863000B83885;
+			remoteInfo = SuspendWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FF0240A1F56863000B83885 /* SuspendWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspendWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF0240D1F56863000B83885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FF0240F1F56863000B83885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FF024121F56863000B83885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FF024141F56863000B83885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF024171F56863000B83885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FF024191F56863000B83885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF0241E1F56863000B83885 /* SuspendWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspendWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF024221F56863000B83885 /* SuspendWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendWindowTests.swift; sourceTree = "<group>"; };
+		2FF024241F56863000B83885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF024291F56863000B83885 /* SuspendWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspendWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF0242D1F56863000B83885 /* SuspendWindowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendWindowUITests.swift; sourceTree = "<group>"; };
+		2FF0242F1F56863000B83885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF0243B1F5686E900B83885 /* AssistiveTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistiveTouch.swift; sourceTree = "<group>"; };
+		2FF0243D1F56873500B83885 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF024071F56863000B83885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF0241B1F56863000B83885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF024261F56863000B83885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF024011F56863000B83885 = {
+			isa = PBXGroup;
+			children = (
+				2FF0240C1F56863000B83885 /* SuspendWindow */,
+				2FF024211F56863000B83885 /* SuspendWindowTests */,
+				2FF0242C1F56863000B83885 /* SuspendWindowUITests */,
+				2FF0240B1F56863000B83885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF0240B1F56863000B83885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF0240A1F56863000B83885 /* SuspendWindow.app */,
+				2FF0241E1F56863000B83885 /* SuspendWindowTests.xctest */,
+				2FF024291F56863000B83885 /* SuspendWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF0240C1F56863000B83885 /* SuspendWindow */ = {
+			isa = PBXGroup;
+			children = (
+				2FF0243D1F56873500B83885 /* TwoViewController.swift */,
+				2FF0243B1F5686E900B83885 /* AssistiveTouch.swift */,
+				2FF0240D1F56863000B83885 /* AppDelegate.swift */,
+				2FF0240F1F56863000B83885 /* ViewController.swift */,
+				2FF024111F56863000B83885 /* Main.storyboard */,
+				2FF024141F56863000B83885 /* Assets.xcassets */,
+				2FF024161F56863000B83885 /* LaunchScreen.storyboard */,
+				2FF024191F56863000B83885 /* Info.plist */,
+			);
+			path = SuspendWindow;
+			sourceTree = "<group>";
+		};
+		2FF024211F56863000B83885 /* SuspendWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF024221F56863000B83885 /* SuspendWindowTests.swift */,
+				2FF024241F56863000B83885 /* Info.plist */,
+			);
+			path = SuspendWindowTests;
+			sourceTree = "<group>";
+		};
+		2FF0242C1F56863000B83885 /* SuspendWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF0242D1F56863000B83885 /* SuspendWindowUITests.swift */,
+				2FF0242F1F56863000B83885 /* Info.plist */,
+			);
+			path = SuspendWindowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF024091F56863000B83885 /* SuspendWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF024321F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindow" */;
+			buildPhases = (
+				2FF024061F56863000B83885 /* Sources */,
+				2FF024071F56863000B83885 /* Frameworks */,
+				2FF024081F56863000B83885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspendWindow;
+			productName = SuspendWindow;
+			productReference = 2FF0240A1F56863000B83885 /* SuspendWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF0241D1F56863000B83885 /* SuspendWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF024351F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindowTests" */;
+			buildPhases = (
+				2FF0241A1F56863000B83885 /* Sources */,
+				2FF0241B1F56863000B83885 /* Frameworks */,
+				2FF0241C1F56863000B83885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF024201F56863000B83885 /* PBXTargetDependency */,
+			);
+			name = SuspendWindowTests;
+			productName = SuspendWindowTests;
+			productReference = 2FF0241E1F56863000B83885 /* SuspendWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF024281F56863000B83885 /* SuspendWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF024381F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindowUITests" */;
+			buildPhases = (
+				2FF024251F56863000B83885 /* Sources */,
+				2FF024261F56863000B83885 /* Frameworks */,
+				2FF024271F56863000B83885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF0242B1F56863000B83885 /* PBXTargetDependency */,
+			);
+			name = SuspendWindowUITests;
+			productName = SuspendWindowUITests;
+			productReference = 2FF024291F56863000B83885 /* SuspendWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF024021F56863000B83885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "高帅";
+				TargetAttributes = {
+					2FF024091F56863000B83885 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					2FF0241D1F56863000B83885 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 2FF024091F56863000B83885;
+					};
+					2FF024281F56863000B83885 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 2FF024091F56863000B83885;
+					};
+				};
+			};
+			buildConfigurationList = 2FF024051F56863000B83885 /* Build configuration list for PBXProject "SuspendWindow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF024011F56863000B83885;
+			productRefGroup = 2FF0240B1F56863000B83885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF024091F56863000B83885 /* SuspendWindow */,
+				2FF0241D1F56863000B83885 /* SuspendWindowTests */,
+				2FF024281F56863000B83885 /* SuspendWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF024081F56863000B83885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF024181F56863000B83885 /* LaunchScreen.storyboard in Resources */,
+				2FF024151F56863000B83885 /* Assets.xcassets in Resources */,
+				2FF024131F56863000B83885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF0241C1F56863000B83885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF024271F56863000B83885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF024061F56863000B83885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF024101F56863000B83885 /* ViewController.swift in Sources */,
+				2FF0243C1F5686E900B83885 /* AssistiveTouch.swift in Sources */,
+				2FF0240E1F56863000B83885 /* AppDelegate.swift in Sources */,
+				2FF0243E1F56873600B83885 /* TwoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF0241A1F56863000B83885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF024231F56863000B83885 /* SuspendWindowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF024251F56863000B83885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF0242E1F56863000B83885 /* SuspendWindowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF024201F56863000B83885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF024091F56863000B83885 /* SuspendWindow */;
+			targetProxy = 2FF0241F1F56863000B83885 /* PBXContainerItemProxy */;
+		};
+		2FF0242B1F56863000B83885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF024091F56863000B83885 /* SuspendWindow */;
+			targetProxy = 2FF0242A1F56863000B83885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FF024111F56863000B83885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF024121F56863000B83885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FF024161F56863000B83885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF024171F56863000B83885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF024301F56863000B83885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FF024311F56863000B83885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF024331F56863000B83885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8L6D236AGN;
+				INFOPLIST_FILE = SuspendWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF024341F56863000B83885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8L6D236AGN;
+				INFOPLIST_FILE = SuspendWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FF024361F56863000B83885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R262B8J6UQ;
+				INFOPLIST_FILE = SuspendWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspendWindow.app/SuspendWindow";
+			};
+			name = Debug;
+		};
+		2FF024371F56863000B83885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R262B8J6UQ;
+				INFOPLIST_FILE = SuspendWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspendWindow.app/SuspendWindow";
+			};
+			name = Release;
+		};
+		2FF024391F56863000B83885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R262B8J6UQ;
+				INFOPLIST_FILE = SuspendWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuspendWindow;
+			};
+			name = Debug;
+		};
+		2FF0243A1F56863000B83885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R262B8J6UQ;
+				INFOPLIST_FILE = SuspendWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shuai.SuspendWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuspendWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF024051F56863000B83885 /* Build configuration list for PBXProject "SuspendWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF024301F56863000B83885 /* Debug */,
+				2FF024311F56863000B83885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF024321F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF024331F56863000B83885 /* Debug */,
+				2FF024341F56863000B83885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF024351F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF024361F56863000B83885 /* Debug */,
+				2FF024371F56863000B83885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF024381F56863000B83885 /* Build configuration list for PBXNativeTarget "SuspendWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF024391F56863000B83885 /* Debug */,
+				2FF0243A1F56863000B83885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF024021F56863000B83885 /* Project object */;
+}
